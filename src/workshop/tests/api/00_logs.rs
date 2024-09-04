@@ -14,7 +14,8 @@ fn i_can_see_logs() {
     // ```sh
     // $ TEST_LOG=1 cargo test i_can_see_logs
     // ```
-    let i_can_see_logs: bool = todo!();
+    // let i_can_see_logs: bool = todo!();
+    let i_can_see_logs: bool = true;
     assert!(i_can_see_logs);
 }
 

@@ -2,17 +2,17 @@
 //! - Comment out the modules of this file one by one, starting from the module `greetings`.
 //! - Run `cargo test` and solve the exercises of each module.
 
-// #[path = "00_greetings.rs"]
-// mod greetings;
+#[path = "00_greetings.rs"]
+mod greetings;
 
-// #[path = "00_logs.rs"]
-// mod logs;
+#[path = "00_logs.rs"]
+mod logs;
 
-// #[path = "01_swapi_docker.rs"]
-// mod swapi_docker;
+#[path = "01_swapi_docker.rs"]
+mod swapi_docker;
 
-// #[path = "02_swapi.rs"]
-// mod swapi;
+#[path = "02_swapi.rs"]
+mod swapi;
 
 // #[path = "03_swapi_mock.rs"]
 // mod swapi_mock;
